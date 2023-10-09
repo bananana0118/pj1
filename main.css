@@ -6,6 +6,10 @@
   src: url("./woff2/PretendardVariable.woff2") format("woff2-variations");
 }
 
+body {
+  margin: 0 auto;
+}
+
 nav {
   font-family: "Pretendard Variable";
   flex-direction: row;
@@ -56,6 +60,78 @@ nav {
 .web_submenu > div:last-child {
   background-color: #497b72;
 }
+
+/* section */
+
+/* first */
+
+section.first {
+  background-color: #f7f2ec;
+  height: 752px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 114px;
+}
+
+section.first .title {
+  color: #807863;
+  font-family: 210 Ohneuleun;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+section.first.main {
+  height: 100%;
+  background-color: #f7f2ec;
+}
+
+.slideBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* side */
+section.first .side {
+  width: 264px;
+  gap: 43px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.first .side > div {
+  width: 264px;
+  height: 264px;
+  border-radius: 500px;
+  cursor: pointer;
+}
+
+section.first .side > div:first-child {
+  width: 264px;
+  background-color: #eec692;
+  color: #876815;
+}
+
+section.first .side > div:last-child {
+  width: 264px;
+  background-color: #497b72;
+  color: white;
+}
+
 @media (min-width: 1280px) {
   body {
   }
