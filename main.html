@@ -2,6 +2,8 @@
 
 <head>
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
 
 </head>
 
@@ -26,28 +28,56 @@
         <div class="main">
             <div class="slideBox">
                 <img class="title" src="./img/web_title.svg"></img>
-                <div class="slide">
-                    <div>왼쪽버튼</div>
-                    <img src="./img/slide/mainImg1.png">
-                    <div>오른쪽버튼</div>
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper" style="margin:20px">
+                        <!-- Slides -->
+                        <img class="swiper-slide" src="./img/slide/mainImg1.png">
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                    </div>
+                    <!-- If we need pagination -->
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+
                 </div>
             </div>
         </div>
         <div class="side">
             <div class="sideBtn">
-                <div>img</div>
-                <div>text</div>
+                <img src="./img/section1/bird.svg">
+                <div>법인소개</div>
             </div>
             <div class="sideBtn">
-                <div>img</div>
-                <div>text</div>
+                <img src="./img/section1/group.svg">
+                <div>센터소개</div>
             </div>
         </div>
 
     </section>
 
     <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script type="text/javascript">
+        const swiper = new Swiper(".swiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
 
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>

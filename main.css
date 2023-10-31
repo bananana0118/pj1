@@ -9,6 +9,9 @@
 body {
   margin: 0 auto;
 }
+* {
+  box-sizing: border-box;
+}
 
 nav {
   font-family: "Pretendard Variable";
@@ -96,11 +99,38 @@ section.first.main {
   align-items: center;
 }
 
-.slide {
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/*TODO : 추후 반응형 적용되는지 사이즈 고민*/
+.swiper {
+  width: 810px;
+  height: 477px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  margin: 20px;
+  height: 477px;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* side */
@@ -130,6 +160,26 @@ section.first .side > div:last-child {
   width: 264px;
   background-color: #497b72;
   color: white;
+}
+
+section.first .sideBtn {
+  width: 264px;
+  gap: 10px;
+  font-size: 36px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.swiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  margin: 0 12px 0 0 !important;
+}
+
+.swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #497b72 !important;
 }
 
 @media (min-width: 1280px) {
