@@ -26,6 +26,7 @@ var flkty2 = new Flickity(elem2, {
   wrapAround: true,
   autoPlay: true,
   setGallerySize: false,
+  draggable: false,
 });
 // element argument can be a selector string
 //   for an individual element
