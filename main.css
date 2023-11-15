@@ -10,7 +10,7 @@ body {
   margin: 0 auto;
   width: 100%;
   min-height: 100vh;
-  min-width: 1280px;
+  min-width: 1400px;
   overflow-x: hidden;
 }
 * {
@@ -90,6 +90,7 @@ nav {
 /* section */
 .container1 {
   display:flex;
+  padding:0 50px;
   justify-content: center;
   background-color: #f7f2ec;
   width: 100%;
@@ -119,13 +120,13 @@ nav {
 /* first */
 
 section.first {
-  padding:90px 50px ;
+  padding:90px 0 ;
   background-color: #f7f2ec;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 114px;
+  
 }
 
 section.first .title {
@@ -536,7 +537,6 @@ section{
 
 }
 .flickity-prev-next-button {
-  top: 46%;
   width: 44px;
   height: 44px;
   border-radius: 10px;
