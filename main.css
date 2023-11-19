@@ -500,7 +500,7 @@ section.third {
   font-family: "Pretendard Variable";
   font-size: 20px;
   font-weight: 600;
-  padding:1rem;
+  padding:16px;
 }
 
 .cardBox{
@@ -535,7 +535,7 @@ section{
   width: 44px;
   height: 44px;
   border-radius: 10px;
-  transform: translateY(-50%);
+  transform: translateY(-50%) translateY(-32px);
 }
 
 .flickity-button {
