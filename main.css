@@ -17,7 +17,7 @@ body {
   box-sizing: border-box;
 }
 
-.content{
+.content {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -52,7 +52,7 @@ nav {
 
 .web_mainmenu > a:hover {
   cursor: pointer;
-  color:#497B72;
+  color: #497b72;
 }
 
 /*submenu start*/
@@ -82,54 +82,51 @@ nav {
   background-color: #497b72;
   opacity: 0.7;
 }
-.web_submenu > div a{
-  color:white;
+.web_submenu > div a {
+  color: white;
 }
-
 
 /* section */
 .container1 {
-  display:flex;
-  padding:0 50px;
+  display: flex;
+  padding: 0 50px;
   justify-content: center;
   background-color: #f7f2ec;
   width: 100%;
 }
 
 .container2 {
-  display:flex;
-  padding:0 50px;
+  display: flex;
+  padding: 0 50px;
   justify-content: center;
-  background-color: #FBE2E1 ;
+  background-color: #fbe2e1;
   width: 100%;
 }
 
 .container3 {
-  display:flex;
-  padding:0 50px;
+  display: flex;
+  padding: 0 50px;
   justify-content: center;
   background-color: #fff;
   width: 100%;
 }
 .container4 {
-  display:flex;
-  padding:0 50px;
+  display: flex;
+  padding: 0 50px;
   justify-content: center;
-  background-color: #83706F;
+  background-color: #83706f;
   width: 100%;
 }
-
 
 /* first */
 
 section.first {
-  padding:90px 0 ;
+  padding: 90px 0;
   background-color: #f7f2ec;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  
 }
 
 section.first .title {
@@ -164,16 +161,14 @@ body {
 
 /*TODO : 추후 반응형 적용되는지 사이즈 고민*/
 
-
-.slide-carousel .flickity-page-dots .dot{
-  background-color: #497B72;
+.slide-carousel .flickity-page-dots .dot {
+  background-color: #497b72;
 }
 
-
-.slide-carousel{
+.slide-carousel {
   width: 906px;
-  height:742px;
-  gap:1rem;
+  height: 742px;
+  gap: 1rem;
 }
 
 .slideImgBox {
@@ -188,7 +183,6 @@ body {
   border-radius: 10px;
   transform: translateY(-50%);
 }
-
 
 /* side */
 section.first .side {
@@ -218,7 +212,8 @@ section.first .side {
   color: white;
 }
 
-.sideBtn1, .sideBtn2 {
+.sideBtn1,
+.sideBtn2 {
   width: 264px;
   gap: 10px;
   font-size: 36px;
@@ -229,31 +224,29 @@ section.first .side {
   align-items: center;
 }
 
-.side > a:first-child :hover{
- opacity: 0.7;
- color: #876815;
+.side > a:first-child :hover {
+  opacity: 0.7;
+  color: #876815;
 }
-.side > a:last-child :hover{
+.side > a:last-child :hover {
   opacity: 0.7;
   color: white;
- }
-
+}
 
 /* section 2 */
 section.second {
-  height:100%;
-  background-color: #FBE2E1 ;
+  height: 100%;
+  background-color: #fbe2e1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding:8% 0 7% 0;
-
+  padding: 8% 0 7% 0;
 }
 
 .headline hr {
   flex: 1;
   border: none;
-  border-top: 1px solid #D68282; /* 가로선 스타일 설정 */
+  border-top: 1px solid #d68282; /* 가로선 스타일 설정 */
   margin: 0 10px; /* 가로선 사이의 간격 설정 */
 }
 
@@ -269,38 +262,37 @@ section.second {
   font-family: "Pretendard Variable";
   font-size: 36px;
   font-weight: 600;
-  margin:0 30px;
+  margin: 0 30px;
   white-space: nowrap; /* 텍스트가 줄 바꿈되지 않도록 설정 */
 }
 
-.infoContainer{
+.infoContainer {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  gap: 10%;
+  gap: 5%;
 }
 
-.infoContainer .infoBox{
+.infoContainer .infoBox {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.infoContainer .subTitle{
+.infoContainer .subTitle {
   color: #222020;
   font-family: "Pretendard Variable";
   font-size: 42px;
   font-weight: 600;
   line-height: normal;
-
   margin-top: 35px;
 }
 
-.infoContainer .info{
-  color: var(--gray, #736D6D);
+.infoContainer .info {
+  color: var(--gray, #736d6d);
   font-family: "Pretendard Variable";
   text-align: center;
   font-size: 24px;
@@ -308,27 +300,38 @@ section.second {
   line-height: 150%; /* 36px */
 }
 
+.infoImgBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.infoImgBox img {
+  height: 300px;
+}
+
 footer {
   width: 1280px;
-  background-color: #83706F;
+  background-color: #83706f;
   display: flex;
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  gap:120px;
-  padding:48px;
+  gap: 120px;
+  padding: 48px;
 }
 
-footer > .info{
-  color: #FFF;
+footer > .info {
+  color: #fff;
   font-family: "Pretendard Variable";
   font-size: 20px;
   line-height: 150%; /* 30px */
 }
 
-
-footer .title{
-  color: #FFF;
+footer .title {
+  color: #fff;
   font-family: "Pretendard Variable";
   font-size: 36px;
   font-style: normal;
@@ -339,33 +342,31 @@ footer .title{
 /* section 3 */
 
 section.third {
-  background-color: #fff ;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding:36px 0;
-
+  padding: 36px 0;
 }
 
-.boardContainer{
+.boardContainer {
   display: flex;
   width: 100%;
   flex-direction: row;
-  gap:20px;
+  gap: 20px;
 }
 
-.board{
-  flex:1;
+.board {
+  flex: 1;
 }
 
 .boardHeader {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items:flex-start;
-  border-bottom: 1px solid var(--gray_2, #DBDBDB);
+  align-items: flex-start;
+  border-bottom: 1px solid var(--gray_2, #dbdbdb);
 }
-
 
 .textBox {
   display: flex;
@@ -382,12 +383,12 @@ section.third {
 .subText {
   font-family: "Pretendard Variable";
   font-weight: 500;
-  color: #736D6D;
+  color: #736d6d;
   font-size: 20px;
   margin-bottom: 20.5px;
 }
 
-.boardBody{
+.boardBody {
   display: flex;
   flex-direction: column;
 }
@@ -397,15 +398,15 @@ section.third {
   padding: 26px 16px;
   flex-direction: row;
   justify-content: space-between;
-  gap:20px;
+  gap: 20px;
 }
 
-.bodyItem .title{
+.bodyItem .title {
   font-family: "Pretendard Variable";
   color: #222020;
-  flex:2;
+  flex: 2;
   display: block;
-  width: 200px; 
+  width: 200px;
   font-size: 24px;
   font-weight: 600;
   overflow: hidden;
@@ -413,16 +414,15 @@ section.third {
   text-overflow: ellipsis;
 }
 
-.date{
-  color: #969B99;
+.date {
+  color: #969b99;
   font-family: "Pretendard Variable";
   font-size: 20px;
   font-weight: 600;
-  flex:1;
+  flex: 1;
 }
 
-.plusButton{
-
+.plusButton {
   width: 50px;
   height: 50px;
   display: flex;
@@ -438,56 +438,52 @@ section.third {
 .help {
   width: 100%;
   margin-top: 144px;
-  padding:20px;
-  border :1px solid #969B99;
+  padding: 20px;
+  border: 1px solid #969b99;
   border-radius: 10px;
-  background-color:#F9F9F9;
+  background-color: #f9f9f9;
 }
 
-.help .title{
+.help .title {
   font-family: "Pretendard Variable";
-  color:#222020;
+  color: #222020;
   font-size: 36px;
   font-weight: 600;
 }
 
-.help .callNumber{
+.help .callNumber {
   font-family: "Pretendard Variable";
-  color: #3B8EE2;
+  color: #3b8ee2;
   font-weight: 800;
   font-size: 64px;
 }
 
-.help .subTitle{
+.help .subTitle {
   font-family: "Pretendard Variable";
-  color:#969B99;
+  color: #969b99;
   font-weight: 400;
   font-size: 24px;
 }
 
-.cards { 
-  display:flex;
-  width:100%;
+.cards {
+  display: flex;
+  width: 100%;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap:1rem;
+  gap: 1rem;
 }
 
-
-
-.card{
+.card {
   border-radius: 12px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.08);
   margin-right: 1rem;
-
 }
-.card img{
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  width:288px;
-  height:288px;
+.card img {
+  border-radius: 12px;
+  width: 288px;
+  height: 288px;
 }
 
 .card.imgContainer {
@@ -495,19 +491,18 @@ section.third {
   max-height: 100%;
 }
 
-
 .cardLabel {
   font-family: "Pretendard Variable";
   font-size: 20px;
   font-weight: 600;
-  padding:16px;
+  padding: 16px;
 }
 
-.cardBox{
+.cardBox {
   margin-bottom: 122px;
 }
 
-.imgHeader{
+.imgHeader {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -518,18 +513,17 @@ section.third {
   margin-top: 100px;
   margin-bottom: 36px;
 }
-section{
+section {
   width: 1280px;
 }
 
-.main-carousel{
+.main-carousel {
   width: 1200px;
-  gap:1rem;
+  gap: 1rem;
 }
 
 .main-carousel .flickity-page-dots {
   display: none;
-
 }
 .flickity-prev-next-button {
   width: 44px;
@@ -540,29 +534,29 @@ section{
 
 .flickity-button {
   position: absolute;
-  background-color:rgba(65, 62, 62, 0.8);
+  background-color: rgba(65, 62, 62, 0.8);
   border: none;
-  color: #FFFFFF
+  color: #ffffff;
 }
 .flickity-button:hover {
-  background-color:rgba(65, 62, 62,1);
+  background-color: rgba(65, 62, 62, 1);
   cursor: pointer;
 }
 
 .main-carousel .flickity-viewport {
-  height:360px;
+  height: 360px;
 }
 
 a {
   text-decoration: none;
   display: inline-block;
-  color:black;
+  color: black;
   cursor: pointer;
 }
 
 a :hover {
-  color: black; 
-  cursor:pointer;
+  color: black;
+  cursor: pointer;
 }
 @media (min-width: 1280px) {
   body {
